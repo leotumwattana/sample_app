@@ -10,7 +10,6 @@ gem 'bundler'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
